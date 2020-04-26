@@ -27,7 +27,7 @@ USERNAME=pyclik
 TAG=$(USERNAME)/hello_world_printer
 
 docker_push: docker_build
-	@docker login --username $(USERNAME) --password $${DOCKER_PASSWORD} \
-	docker tag hello-world-printer $(TAG); \
-	docker push $(TAG); \
-	docker logout;
+	docker login --username $(USERNAME) --password ${DOCKER_PASSWORD}
+	docker tag hello-world-printer $(TAG)
+	docker push $(TAG)
+	docker logout
