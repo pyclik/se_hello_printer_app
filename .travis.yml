@@ -9,3 +9,8 @@ script:
   - make test
   - make docker_build
   - make docker_push
+
+deploy:
+ provider: heroku
+ app: salty-chamber-43887
+ api_key: ${HEROKU_API_KEY}

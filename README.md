@@ -43,7 +43,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ make test
 
   albo:
-  
+
   $ PYTHONPATH=. py.test
   $ PYTHONPATH=. py.test --verbose -s
   ```
@@ -95,3 +95,11 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ yum install -y docker-ce
   $ systemctl start docker
   ```
+
+  # monitoring reports
+  1. go to statuscake.com
+
+  # created Test http
+
+  <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=5553769&Days=1&Design=1" /></a>
+  
